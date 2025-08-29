@@ -1,0 +1,59 @@
+body {
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.headerButtons {
+    display: flex;
+    column-gap: 10px;
+    margin-left: auto;
+    padding-right: 50px;
+}
+
+.headerButton {
+    border-bottom: 1px solid rgba(0, 0, 0, 0);
+}
+
+.headerButton:hover {
+    transition: border-bottom 0.7s;
+  border-bottom: 1px solid rgb(243, 121, 115);
+}
+
+.app {
+    padding-top: 50px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+}
+
+.navigation {
+    padding: 0 50px;;
+    background-color: #eba9a5;
+}
+
+.navigationBlock {
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+}
+
+.navigationLink {
+    padding: 10px;
+    border-right: 1px solid rgba(0, 0, 0, 0);
+}
+
+.navigationLink:hover {
+    transition: border-right 0.7s;
+    border-right: 1px solid rgb(243, 121, 115);
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
