@@ -1,9 +1,9 @@
 import React from 'react';
-import logo from './logo.svg';
+import logo from './svgs/logo.svg';
 import styles from './App.module.css';
-import location from './location.svg';
-import home from './home.svg';
-import subscribe from './subscribe.svg';
+import location from './svgs/location.svg';
+import home from './svgs/home.svg';
+import subscribe from './svgs/subscribe.svg';
 
 const headerButtons = [
   { name: 'location', src: location },
