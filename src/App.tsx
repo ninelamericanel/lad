@@ -105,14 +105,10 @@ function App() {
                 Ресторан известных макарон в&nbsp;Москве
                 </h3>
                 <p>Излюбленное место для москвичей и&nbsp;гостей столицы</p>
-                {/* <div> */}
               <div className={styles.buttons}>
                 <button className={styles.button}><a href='https://laduree-russia.ru/docs/laduree_restaurant_main.pdf' target='_blank'>Меню ресторана</a></button>
                 <button className={styles.button}><a href='#'>Расположение магазина</a></button>
               </div>
-          {/* </div> */}
-            {/* </div> */}
-            {/* </div> */}
           </div>
           <h1 className={styles.title} ref={titleRef}>Ladurée à-la Russe</h1>
         </div>
